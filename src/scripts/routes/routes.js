@@ -11,7 +11,7 @@ const routes = {
   '/home': Home, 
   '/artikel': Artikel,
   '/obat' : Medicine,
-  '/alatkesehatan': AlatKesehatan,
+  '/imt': AlatKesehatan,
   '/contact-us' : Contact,
   '/about-us' : AboutUs,
   '/detail-obat/:slug' : DetailObat,

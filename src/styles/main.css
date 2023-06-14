@@ -8,6 +8,11 @@
     height: 640px;
 }
 
+#heroes {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+}
+
 #brand b {
     color: #cf8f32;
 }
@@ -24,6 +29,10 @@
     display: grid;
     gap: 20px;
   }
+
+.checked {
+  background-color: #151823 !important;
+}
 
   #medicine {
     margin: 100px auto;
