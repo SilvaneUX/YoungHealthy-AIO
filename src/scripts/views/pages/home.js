@@ -9,9 +9,11 @@ const Home = {
         <div class="row g-0">
           <div class="col-md-6">
             <div class="jumbotron-body">
-              <h1><b>Bukan Sekedar Gaya</b></h1>
-              <h1><b>Saatnya Hidup</b></h1>
-              <h1 style="margin-bottom: 25px"><b>Lebih Sehat</b></h1>
+            <div class="animate__animated animate__fadeInUp">
+            <h1><b>Bukan Sekedar Gaya</b></h1>
+            <h1><b>Saatnya Hidup</b></h1>
+            <h1 style="margin-bottom: 25px"><b>Lebih Sehat</b></h1>
+            </div>
               <p>Waktunya ngasih perhatian lebih ke hidup sehat, biar makin kece dan oke.
               Gak cuma gaya, tapi bikin badan sehat dan pikiran segar. Mulai dari 
               pola makan yangg nyambung, rajin olahraga, tidur yang cukup
@@ -19,7 +21,7 @@ const Home = {
               <button class="btn button"><b>Pusat Kesehatan</b></button>
               </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 " id="heroes">
             <img src="/images/heros/avatar.png" class="img-fluid rounded-end" alt="Ilustrasi-Anak-Muda-Sehat">
           </div>
         </div>

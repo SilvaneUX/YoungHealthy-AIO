@@ -28,9 +28,6 @@ const createMedicineTemplate =  (healthy) => {
   <div class="post-item-body">
       <h5 class="card-title">${healthy.name}</h5>
       <p class="card-text">${price}</p>
-      <h3 class="container-detail">
-        <a href="./#/detail/${healthy.slug}">detail</a>
-      </h3>
   </div>
   </article>
   
@@ -46,7 +43,7 @@ const createArtikelHome = (healthy) => `
   <div class="col-md-6 p-4 ps-md-0">
     <h5 class="mt-0">${healthy.title}</h5>
     <p>${healthy.headline}</p>
-    <a href="${healthy.source_url}" class="stretched-link">Selengkapnya</a>
+    <a href="${healthy.source_url}" class="btn button stretched-link">Selengkapnya</a>
   </div>
 </div>
 `;
