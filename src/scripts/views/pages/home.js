@@ -18,7 +18,7 @@ const Home = {
               Gak cuma gaya, tapi bikin badan sehat dan pikiran segar. Mulai dari 
               pola makan yangg nyambung, rajin olahraga, tidur yang cukup
               dan jauhin diri dari kebiasaan negatif</p>
-              <button class="btn button"><b>Pusat Kesehatan</b></button>
+              <button href="#/artikel" class="btn button"><b>Pusat Kesehatan</b></button>
               </div>
           </div>
           <div class="col-md-6 " id="heroes">
