@@ -1,7 +1,7 @@
 const CONFIG = {
-  BASE_URL: 'https://young-healthy-aio.vercel.app/articles-trending',
-  MEDICINE : 'https://young-healthy-aio.vercel.app/medicine/categories/obat/page/1',
-  REKOMENDASI : 'https://young-healthy-aio.vercel.app/articles/page/1',
+  BASE_URL: 'https://younghealthy-beken-production.up.railway.app/articles-trending',
+  MEDICINE : 'https://younghealthy-beken-production.up.railway.app/medicine/categories/obat/page/1',
+  REKOMENDASI : 'https://younghealthy-beken-production.up.railway.app/articles/page/1',
   CACHE_NAME: new Date().toISOString(),
   DATABASE_NAME: 'restaurant-catalogue-database2',
   DATABASE_VERSION: 1,
