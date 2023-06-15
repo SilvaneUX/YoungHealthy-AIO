@@ -15,7 +15,6 @@ app.get("/", (req, res) => {
             <section style=flex-direction:column;display:flex;align-items:center;justify-content:center;">
                 <h1 style="text-align:center;">Unofficial api from <a href="https://www.halodoc.com/">Halodoc</a></h1>
                 <h3>Read docs on <a href="https://github.com/bakunya/halodoc-api">Here</a></h3>
-                <script type='text/javascript' src='https://cdn.trakteer.id/js/embed/trbtn.min.js'></script><script type='text/javascript'>(function(){var trbtnId=trbtn.init('Support me at Trakteer','#be1e2d','https://trakteer.id/bakunya','https://cdn.trakteer.id/images/embed/trbtn-icon.png','40');trbtn.draw(trbtnId);})();</script>
             </section>
         </section>
     `)
