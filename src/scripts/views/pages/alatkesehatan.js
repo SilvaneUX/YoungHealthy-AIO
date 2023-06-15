@@ -28,7 +28,7 @@ const AlatKesehatan = {
                   <input type="number" class="form-control" id="tt" placeholder="Tinggi Badan">
               </div>
               <div class="mb-3">
-                  <label for="tinggi-badan" class="form-label">Berapa Umur Kamu ? (cm) </label>
+                  <label for="tinggi-badan" class="form-label">Berapa Umur Kamu ? (tahun) </label>
                   <input type="number" class="form-control" id="umur" placeholder="Tinggi Badan">
               </div>
             </div>

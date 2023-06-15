@@ -28,6 +28,11 @@ const createMedicineTemplate =  (healthy) => {
   <div class="post-item-body">
       <h5 class="card-title">${healthy.name}</h5>
       <p class="card-text">${price}</p>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-primary btn-bottom-left">
+          <a href="./#/detail/${healthy.slug}" class="container-detail">detail</a>
+        </button>
+      </div>
   </div>
   </article>
   
@@ -43,7 +48,7 @@ const createArtikelHome = (healthy) => `
   <div class="col-md-6 p-4 ps-md-0">
     <h5 class="mt-0">${healthy.title}</h5>
     <p>${healthy.headline}</p>
-    <a href="${healthy.source_url}" class="btn button stretched-link">Selengkapnya</a>
+    <a href="${healthy.source_url}" class="stretched-link">Selengkapnya</a>
   </div>
 </div>
 `;
@@ -63,9 +68,38 @@ const createrekomenartikeltemplate = (healthy) => `
     </div>
 `;
 
+const createDetailObatTemplate = (healthy) => `
+    <div class="col-md-6">
+      <img src="${healthy.image_url ? healthy.image_url : 'images/default-pic.jpg'}" class="image-detail-obat" alt="${healthy.canon_slug}">
+      <p>${healthy.bpom_number}</p>             
+    </div>
+    <div class="col-md-6 deskripsi-detail-obat">
+      <h3>${healthy.canon_slug}</h3>
+      <h4 class="base-price">Rp.${healthy.base_price} <span class="perstrip">${healthy.selling_unit}</span></h4>
+      <p>Deskripsi : <br>
+      ${healthy.description}
+      </p>
+      <p> Dosis : <br>
+      ${healthy.dosage}
+      </p>
+      <p> Cara Pemkaian : <br>
+      ${healthy.how_to_use}
+      </p>
+      <p> Effect Samping : <br>
+      ${healthy.side_effects}
+      </p>
+      <p> Packaging : <br>
+      ${healthy.packaging}
+      </p>
+      <p class="warning-obat">${healthy.warning}</p>
+
+    </div>
+
+`;
+
 const createAboutWebTemplate = () => `
 <div class="row d-flex align-items-center wrap-about">
-  <div class="col-lg-5 offset-md-1 gambar-about">
+  <div class="col-lg-5 gambar-about">
     <img class="img-baner1 lazyload" data-src="./images/Baner1.jpg"  alt="Tentang Aplikasi" tabindex="0">
     </div>
     <div class="col-lg-3 text-about">
@@ -186,6 +220,7 @@ export {
   createArtikelHome,
   createMedicineTemplate,
   createrekomenartikeltemplate,
+  createDetailObatTemplate,
   createAboutWebTemplate,
   createFiturWebTemplate,
   createTeamPengembangTemplate,
