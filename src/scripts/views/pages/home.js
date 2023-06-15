@@ -22,7 +22,10 @@ const Home = {
               </div>
           </div>
           <div class="col-md-6 " id="heroes">
-            <img src="/images/heros/avatar.png" class="img-fluid rounded-end" alt="Ilustrasi-Anak-Muda-Sehat">
+          <source class="lazyload" type="image/webp" srcset="/images/heros/avatar.webp">
+          <img class="hero lazyload img-fluid rounded-end" src="/images/heros/avatar.webp"
+               alt="Anak Muda Hidup Sehat">
+          </picture>
           </div>
         </div>
       </div>
