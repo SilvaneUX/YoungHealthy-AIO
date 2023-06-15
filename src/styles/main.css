@@ -2,6 +2,9 @@
 @import 'contactUs.css';
 @import 'aboutus.css';
 
+.btn-bmi {
+  align-items: center;
+}
 
 .jumbotron {
 
@@ -65,6 +68,7 @@
   .post-item-body {
     padding: 16px;
   }
+  
   
   .thumbnail {
     width: 100%;
