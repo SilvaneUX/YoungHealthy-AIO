@@ -69,6 +69,10 @@
   .post-item-body {
     padding: 16px;
   }
+
+  a {
+    text-decoration: none;
+  }
   
   
   .thumbnail {
