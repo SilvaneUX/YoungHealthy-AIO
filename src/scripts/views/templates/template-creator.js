@@ -29,9 +29,7 @@ const createMedicineTemplate =  (healthy) => {
       <h5 class="card-title">${healthy.name}</h5>
       <p class="card-text">${price}</p>
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button type="button" class="btn btn-primary btn-bottom-left">
-          <a href="./#/detail/${healthy.slug}" class="container-detail">detail</a>
-        </button>
+          <a href="./#/detail/${healthy.slug}" class="button container-detail">detail</a>
       </div>
   </div>
   </article>
@@ -48,7 +46,7 @@ const createArtikelHome = (healthy) => `
   <div class="col-md-6 p-4 ps-md-0">
     <h5 class="mt-0">${healthy.title}</h5>
     <p>${healthy.headline}</p>
-    <a href="${healthy.source_url}" class="stretched-link">Selengkapnya</a>
+    <a href="${healthy.source_url}" class="button ">Selengkapnya</a>
   </div>
 </div>
 `;
