@@ -12,7 +12,9 @@
     "e2e": "codeceptjs run --steps",
     "build-image": "node sharp.js",
     "server": "node --max-http-header-size 16384 index.js",
-    "dev": "npm run server | npm run start-dev"
+    "serveserver": "npm run serve | npm run server",
+    "dev": "npm run server | npm run start-dev",
+    "prod": "npm run serve | npm run server | npm run build"
   },
   "keywords": [],
   "author": "your_name <your.email@domain.com>",
